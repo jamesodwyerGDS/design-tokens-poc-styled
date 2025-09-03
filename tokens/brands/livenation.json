@@ -1,0 +1,22 @@
+{
+  "brand": {
+    "name": {
+      "value": "Live Nation"
+    },
+    "color": {
+      "brand": {
+        "primary": {
+          "value": "{core.color.red.500}"
+        }
+      }
+    },
+    "overrides": {
+      "bg": {
+        "value": "{core.color.white}"
+      },
+      "fg": {
+        "value": "{core.color.black}"
+      }
+    }
+  }
+}

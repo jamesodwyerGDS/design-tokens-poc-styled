@@ -1,0 +1,22 @@
+{
+  "brand": {
+    "name": {
+      "value": "Ticketmaster"
+    },
+    "color": {
+      "brand": {
+        "primary": {
+          "value": "{core.color.blue.500}"
+        }
+      }
+    },
+    "overrides": {
+      "bg": {
+        "value": "{core.color.white}"
+      },
+      "fg": {
+        "value": "{core.color.black}"
+      }
+    }
+  }
+}
