@@ -65,8 +65,7 @@
             "fontWeight": "{core.typography.font-weight.black}",
             "fontSize": "{core.typography.font-size.750}",
             "lineHeight": "{core.typography.line-height.full}",
-            "letterSpacing": "{core.typography.letter-spacing.neg-300}",
-            "textCase": "uppercase"
+            "letterSpacing": "{core.typography.letter-spacing.neg-300}"
           }
         },
         "small": {
