@@ -309,13 +309,13 @@
       }
     }
   },
-  "xsmall": {
-    "$type": "letterSpacing",
-    "$value": "-3%"
-  },
   "xxsmall": {
     "$type": "letterSpacing",
     "$value": "-4%"
+  },
+  "xsmall": {
+    "$type": "letterSpacing",
+    "$value": "-3%"
   },
   "small": {
     "$type": "letterSpacing",
