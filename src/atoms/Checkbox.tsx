@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const Checkbox = styled.input.attrs({ type: "checkbox" })`
   appearance: none;
-  width: var(--core-space-4);
-  height: var(--core-space-4);
+  width: var(--core-space-6);
+  height: var(--core-space-6);
   border: 1px solid var(--semantic-color-form-control-border);
   border-radius: var(--semantic-radius-sm);
   background: var(--semantic-color-form-control-bg);

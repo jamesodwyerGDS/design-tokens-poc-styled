@@ -62,16 +62,6 @@ export default function App() {
             <BodyText>Body: This paragraph uses semantic tokens for font-size, weight and line-height.</BodyText>
             <LabelText>Label: Helper text or microcopy.</LabelText>
           </Card>
-        </div>
-
-        <div className="controls-section">
-          <Card>
-            <TitleText>Buttons</TitleText>
-            <div className="row">
-              <Button>Primary</Button>
-              <Button className="secondary">Secondary</Button>
-            </div>
-          </Card>
 
           <Card>
             <TitleText>Surfaces & Elevation</TitleText>
@@ -89,6 +79,16 @@ export default function App() {
               <div className="box s-3">md</div>
               <div className="box s-4">lg</div>
               <div className="box s-5">xl</div>
+            </div>
+          </Card>
+        </div>
+
+        <div className="controls-section">
+          <Card>
+            <TitleText>Buttons</TitleText>
+            <div className="row">
+              <Button>Primary</Button>
+              <Button className="secondary">Secondary</Button>
             </div>
           </Card>
 
