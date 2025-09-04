@@ -44,6 +44,22 @@
       "btn-secondary-fg": {
         "$type": "color",
         "$value": "{core.color.black}"
+      },
+      "form-control-bg": {
+        "$type": "color",
+        "$value": "{core.color.white}"
+      },
+      "form-control-fg": {
+        "$type": "color",
+        "$value": "{core.color.black}"
+      },
+      "form-control-border": {
+        "$type": "color",
+        "$value": "{core.color.grey.300}"
+      },
+      "form-control-checked": {
+        "$type": "color",
+        "$value": "{brand.color.brand.primary}"
       }
     },
     "typography": {

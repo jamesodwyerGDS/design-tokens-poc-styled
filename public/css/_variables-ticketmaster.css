@@ -18,6 +18,8 @@
   --core-space-5: 20px;
   --core-space-6: 24px;
   --core-radius-sm: 6px;
+  --core-radius-none: 0px;
+  --core-radius-xsm: 4px;
   --core-radius-md: 10px;
   --core-elevation-1: 0 1px 2px rgba(0,0,0,0.1);
   --core-elevation-2: 0 2px 4px rgba(0,0,0,0.2);
@@ -83,6 +85,10 @@
   --semantic-color-btn-fg: #ffffff;
   --semantic-color-btn-secondary-bg: #f8fafc;
   --semantic-color-btn-secondary-fg: #000000;
+  --semantic-color-form-control-bg: #ffffff;
+  --semantic-color-form-control-fg: #000000;
+  --semantic-color-form-control-border: #cbd5e1;
+  --semantic-color-form-control-checked: #024ddf;
   --semantic-typography-display-large: 900 96px/1 'Averta', sans-serif;
   --semantic-typography-display-medium: 900 72px/1 'Averta', sans-serif;
   --semantic-typography-display-small: 900 64px/1 'Averta', sans-serif;
@@ -108,7 +114,9 @@
   --space-4: 16px;
   --space-5: 20px;
   --space-6: 24px;
-  --radius-sm: 6px;
+  --radius-sm: 4px;
+  --radius-none: 0px;
+  --radius-xsm: 6px;
   --radius-md: 10px;
   --elevation-1: 0 1px 2px rgba(0,0,0,0.1);
   --elevation-2: 0 2px 4px rgba(0,0,0,0.2);

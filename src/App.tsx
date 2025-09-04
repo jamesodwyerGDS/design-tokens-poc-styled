@@ -5,6 +5,9 @@ import './base.css'
 import { Button } from './atoms/Button'
 import { Card } from './atoms/Card'
 import { DisplayText, TitleText, BodyText, LabelText } from './atoms/Text'
+import { Checkbox } from './atoms/Checkbox'
+import { Radio } from './atoms/Radio'
+import { Toggle } from './atoms/Toggle'
 
 type Theme = 'ticketmaster' | 'livenation'
 
@@ -86,6 +89,32 @@ export default function App() {
               <div className="box s-3">md</div>
               <div className="box s-4">lg</div>
               <div className="box s-5">xl</div>
+            </div>
+          </Card>
+
+          <Card>
+            <TitleText>Form Controls</TitleText>
+            <div className="form-controls">
+              <label className="control-row">
+                <Checkbox />
+                <span>Checkbox option</span>
+              </label>
+
+              <div className="control-group">
+                <label className="control-row">
+                  <Radio name="choice" value="1" />
+                  <span>Radio option 1</span>
+                </label>
+                <label className="control-row">
+                  <Radio name="choice" value="2" />
+                  <span>Radio option 2</span>
+                </label>
+              </div>
+
+              <label className="control-row">
+                <Toggle />
+                <span>Toggle switch</span>
+              </label>
             </div>
           </Card>
         </div>
