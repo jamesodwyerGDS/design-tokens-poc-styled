@@ -313,6 +313,10 @@
     "$type": "letterSpacing",
     "$value": "-3%"
   },
+  "xxsmall": {
+    "$type": "letterSpacing",
+    "$value": "-4%"
+  },
   "small": {
     "$type": "letterSpacing",
     "$value": "-1.5%"
