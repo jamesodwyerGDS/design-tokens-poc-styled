@@ -8,7 +8,7 @@ import { DisplayText, TitleText, BodyText, LabelText } from './atoms/Text'
 import { Checkbox } from './atoms/Checkbox'
 import { Radio } from './atoms/Radio'
 import { Toggle } from './atoms/Toggle'
-import { Select } from './atoms/Select'
+import { ThemeToggle } from './atoms/ThemeToggle'
 
 type Theme = 'ticketmaster' | 'livenation'
 
@@ -36,15 +36,10 @@ export default function App() {
       <header className="header">
         <h1>GDS & Token Studio → styled-components demo</h1>
         <div className="theme-switch">
-          <label htmlFor="theme" style={{ marginRight: 'var(--space-2)' }}>Theme:</label>
-          <Select
-            id="theme"
-            value={theme}
-            onChange={(e) => setTheme(e.target.value as Theme)}
-          >
-            <option value="ticketmaster">Ticketmaster</option>
-            <option value="livenation">Live Nation</option>
-          </Select>
+          <ThemeToggle
+            currentTheme={theme}
+            onThemeChange={setTheme}
+          />
         </div>
       </header>
 

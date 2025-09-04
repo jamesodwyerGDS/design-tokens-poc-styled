@@ -15,7 +15,7 @@ export const Toggle = styled.input.attrs({ type: "checkbox" })`
   &::after {
     content: "";
     position: absolute;
-    left: 2px;
+    left: 4px;
     top: 50%;
     transform: translateY(-50%);
     width: calc(var(--core-space-4) * 1.5);
@@ -23,13 +23,14 @@ export const Toggle = styled.input.attrs({ type: "checkbox" })`
     background: var(--semantic-color-form-control-border);
     border-radius: 50%;
     transition: left 0.2s ease, background 0.2s ease, transform 0.2s ease;
+  }
 
   &:checked {
     background: var(--semantic-color-form-control-checked);
     border-color: var(--semantic-color-form-control-checked);
 
     &::after {
-      left: calc(100% - calc(var(--core-space-4) * 1.1) - 2px);
+      left: calc(100% - calc(var(--core-space-4) * 1.1) - 8px);
       background: var(--semantic-color-form-control-bg);
       transform: translateY(-50%) scale(0.95);
     }
