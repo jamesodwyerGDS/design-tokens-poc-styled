@@ -76,6 +76,7 @@
   --core-text-case-capitalize: capitalize;
   --core-text-case-none: none;
   --xsmall: -0.03em;
+  --xxsmall: -0.04em;
   --small: -0.015em;
   --none: 0;
   --semantic-color-bg: #ffffff;

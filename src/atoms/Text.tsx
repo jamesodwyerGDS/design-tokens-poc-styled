@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const DisplayText = styled.p`
   font: var(--semantic-typography-display-large);
   text-transform: var(--core-text-case-uppercase);
+  letter-spacing: var(--xxsmall);
   margin: 0 0 var(--space-2);
 `;
 
