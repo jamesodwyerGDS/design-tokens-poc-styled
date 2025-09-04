@@ -9,7 +9,7 @@
   --core-color-grey-100: #eef2f6;
   --core-color-grey-300: #cbd5e1;
   --core-color-grey-700: #334155;
-  --core-color-blue-500: #024ddf;
+  --core-color-blue-500: #940077;
   --core-color-red-500: #ff1e1e;
   --core-space-1: 4px;
   --core-space-2: 8px;
@@ -75,8 +75,8 @@
   --core-text-case-lowercase: lowercase;
   --core-text-case-capitalize: capitalize;
   --core-text-case-none: none;
-  --xxsmall: -0.04em;
   --xsmall: -0.03em;
+  --xxsmall: -0.04em;
   --small: -0.015em;
   --none: 0;
   --semantic-color-bg: #ffffff;
@@ -84,16 +84,16 @@
   --semantic-color-fg-muted: #334155;
   --semantic-color-surface: #ffffff;
   --semantic-color-border: #cbd5e1;
-  --semantic-color-accent: #024ddf;
+  --semantic-color-accent: #940077;
   --semantic-color-accent-subtle: #eef2f6;
-  --semantic-color-btn-bg: #024ddf;
+  --semantic-color-btn-bg: #940077;
   --semantic-color-btn-fg: #ffffff;
   --semantic-color-btn-secondary-bg: #f8fafc;
   --semantic-color-btn-secondary-fg: #000000;
   --semantic-color-form-control-bg: #ffffff;
   --semantic-color-form-control-fg: #000000;
   --semantic-color-form-control-border: #cbd5e1;
-  --semantic-color-form-control-checked: #024ddf;
+  --semantic-color-form-control-checked: #940077;
   --semantic-typography-display-large: 900 96px/1 Averta;
   --semantic-typography-display-medium: 900 72px/1 Averta;
   --semantic-typography-display-small: 900 64px/1 Averta;
@@ -128,7 +128,7 @@
   --elevation-3: 0 4px 6px rgba(0,0,0,0.3);
   --elevation-4: 0 6px 10px rgba(0,0,0,0.4);
   --brand-name: Livenation;
-  --brand-color-brand-primary: #024ddf;
+  --brand-color-brand-primary: #940077;
   --brand-overrides-bg: #ffffff;
   --brand-overrides-fg: #000000;
   --brand-border-radius: 4px;

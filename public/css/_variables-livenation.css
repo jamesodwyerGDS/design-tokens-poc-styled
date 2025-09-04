@@ -9,7 +9,7 @@
   --core-color-grey-100: #eef2f6;
   --core-color-grey-300: #cbd5e1;
   --core-color-grey-700: #334155;
-  --core-color-blue-500: #024ddf;
+  --core-color-blue-500: #940077;
   --core-color-red-500: #ff1e1e;
   --core-space-1: 4px;
   --core-space-2: 8px;
@@ -75,8 +75,8 @@
   --core-text-case-lowercase: lowercase;
   --core-text-case-capitalize: capitalize;
   --core-text-case-none: none;
-  --xxsmall: -0.04em;
   --xsmall: -0.03em;
+  --xxsmall: -0.04em;
   --small: -0.015em;
   --none: 0;
   --semantic-color-bg: #ffffff;
@@ -84,7 +84,7 @@
   --semantic-color-fg-muted: #334155;
   --semantic-color-surface: #ffffff;
   --semantic-color-border: #cbd5e1;
-  --semantic-color-accent: #024ddf;
+  --semantic-color-accent: #940077;
   --semantic-color-accent-subtle: #eef2f6;
   --semantic-color-btn-bg: #ff1e1e;
   --semantic-color-btn-fg: #ffffff;

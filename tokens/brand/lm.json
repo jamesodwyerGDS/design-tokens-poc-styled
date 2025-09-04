@@ -26,13 +26,6 @@
       "$type": "borderRadius",
       "$value": "{core.radius.md}"
     },
-    "typography": {
-      "font-family": {
-        "01": {
-          "$type": "fontFamilies",
-          "$value": "Noto Sans"
-        }
-      }
-    }
+    "typography": {}
   }
 }

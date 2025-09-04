@@ -7,7 +7,7 @@
 
 body {
   margin: 0;
-  font-family: var(--core-typography-font-family-01, sans-serif);
+  font-family: 'Averta', sans-serif;
   background: var(--semantic-color-bg);
   color: var(--semantic-color-fg);
 }

@@ -6,29 +6,29 @@ const ToggleWrapper = styled.div`
   height: 48px;
   border-radius: var(--radius-sm);
   padding: var(--core-space-1);
-  background: var(--semantic-color-accent-subtle);
+  background: var(--core-color-grey-100);
   gap: var(--core-space-1);
 `
 
 const ToggleButton = styled.button<{ active: boolean }>`
   height: 40px;
   padding: 0 var(--core-space-4);
-  background: ${props => props.active ? 'var(--semantic-color-accent)' : 'transparent'};
-  border: none;
+  background: ${props => props.active ? 'var(--core-color-black)' : 'transparent'};
+  border: 1px solid var(--core-color-black);
   border-radius: var(--radius-sm);
   font: var(--semantic-typography-label-medium);
-  color: ${props => props.active ? 'var(--semantic-color-surface)' : 'var(--semantic-color-fg)'};
+  color: ${props => props.active ? 'var(--core-color-white)' : 'var(--core-color-black)'};
   cursor: pointer;
   display: flex;
   align-items: center;
   transition: all 0.2s ease;
 
   &:hover {
-    background: ${props => props.active ? 'var(--semantic-color-accent)' : 'var(--semantic-color-border)'};
+    background: ${props => props.active ? 'var(--core-color-black)' : 'var(--core-color-grey-300)'};
   }
 
   &:focus {
-    outline: 2px solid var(--semantic-color-accent);
+    outline: 2px solid var(--core-color-black);
     outline-offset: 2px;
   }
 `
