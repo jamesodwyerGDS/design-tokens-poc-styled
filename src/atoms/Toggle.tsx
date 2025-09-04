@@ -2,14 +2,15 @@ import styled from "styled-components";
 
 export const Toggle = styled.input.attrs({ type: "checkbox" })`
   appearance: none;
-  width: calc(var(--core-space-4) * 2);
-  height: var(--core-space-4);
-  border: 1px solid var(--semantic-color-form-control-border);
-  border-radius: calc(var(--core-space-4) / 2);
+  width: calc(var(--core-space-4) * 2.5);
+  height: calc(var(--core-space-4) * 1.25);
+  border: 2px solid var(--semantic-color-form-control-border);
+  border-radius: calc(var(--core-space-4) * 1.25);
   background: var(--semantic-color-form-control-bg);
   cursor: pointer;
   position: relative;
   transition: background 0.2s ease;
+  padding: 2px;
 
   &::after {
     content: "";
@@ -17,20 +18,20 @@ export const Toggle = styled.input.attrs({ type: "checkbox" })`
     left: 2px;
     top: 50%;
     transform: translateY(-50%);
-    width: calc(var(--core-space-4) - 4px);
-    height: calc(var(--core-space-4) - 4px);
+    width: calc(var(--core-space-4) * 1.1);
+    height: calc(var(--core-space-4) * 1.1);
     background: var(--semantic-color-form-control-border);
     border-radius: 50%;
-    transition: left 0.2s ease, background 0.2s ease;
-  }
+    transition: left 0.2s ease, background 0.2s ease, transform 0.2s ease;
 
   &:checked {
     background: var(--semantic-color-form-control-checked);
     border-color: var(--semantic-color-form-control-checked);
 
     &::after {
-      left: calc(100% - (var(--core-space-4) - 2px));
+      left: calc(100% - calc(var(--core-space-4) * 1.1) - 2px);
       background: var(--semantic-color-form-control-bg);
+      transform: translateY(-50%) scale(0.95);
     }
   }
 
