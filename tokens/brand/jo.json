@@ -8,7 +8,7 @@
       "brand": {
         "primary": {
           "$type": "color",
-          "$value": "{brand.overrides.fg}"
+          "$value": "{core.color.brand-1}"
         }
       }
     },
