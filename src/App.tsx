@@ -30,7 +30,7 @@ export default function App() {
   return (
     <div className="app">
       <header className="header">
-        <h1>Token Studio → styled-components demo</h1>
+        <h1>GDS & Token Studio → styled-components demo</h1>
         <div className="theme-switch">
           <label htmlFor="theme">Theme:</label>
           <select 
