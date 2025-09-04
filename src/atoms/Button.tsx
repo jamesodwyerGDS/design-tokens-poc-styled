@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 export const Button = styled.button`
-  padding: var(--core-space-4) var(--core-space-5);
+  padding: var(--space-4) var(--space-5);
   border-radius: var(--brand-border-radius);
   font: var(--semantic-typography-label-medium);
 
   background: var(--semantic-color-btn-bg);
   color: var(--semantic-color-btn-fg);
   border: 1px solid transparent;
-  box-shadow: var(--core-elevation-1);
+  box-shadow: var(--elevation-1);
   cursor: pointer;
 
   &:hover {

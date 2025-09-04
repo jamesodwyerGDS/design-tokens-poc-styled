@@ -103,8 +103,8 @@ export default function App() {
     link.rel = 'stylesheet'
     link.id = 'theme-css'
     link.href = theme === 'livenation'
-      ? './css/_variables-livenation.css'
-      : './css/_variables-ticketmaster.css'
+      ? '/css/_variables-livenation.css'
+      : '/css/_variables-ticketmaster.css'
     document.head.appendChild(link)
   }, [theme])
 

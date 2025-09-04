@@ -4,10 +4,10 @@ const ToggleWrapper = styled.div`
   display: flex;
   align-items: center;
   height: 48px;
-  border-radius: var(--semantic-radius-sm);
-  padding: 4px;
+  border-radius: var(--radius-sm);
+  padding: var(--core-space-1);
   background: var(--semantic-color-accent-subtle);
-  gap: 4px;
+  gap: var(--core-space-1);
 `
 
 const ToggleButton = styled.button<{ active: boolean }>`
@@ -15,7 +15,7 @@ const ToggleButton = styled.button<{ active: boolean }>`
   padding: 0 var(--core-space-4);
   background: ${props => props.active ? 'var(--semantic-color-accent)' : 'transparent'};
   border: none;
-  border-radius: var(--semantic-radius-sm);
+  border-radius: var(--radius-sm);
   font: var(--semantic-typography-label-medium);
   color: ${props => props.active ? 'var(--semantic-color-surface)' : 'var(--semantic-color-fg)'};
   cursor: pointer;
