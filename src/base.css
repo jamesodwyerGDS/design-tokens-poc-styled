@@ -99,7 +99,7 @@ body {
 .surface {
   background: var(--semantic-color-surface);
   border: 1px solid var(--semantic-color-border);
-  border-radius: var(--radius-none);
+  border-radius: var(--brand-border-radius);
   padding: var(--space-3);
   margin-bottom: var(--space-2);
 }
@@ -110,14 +110,14 @@ body {
 
 /* Spacing demo */
 .spacer-demo { display: flex; align-items: center; gap: var(--space-2); }
-.box { background: var(--semantic-color-accent-subtle); padding: var(--space-2); border-radius: var(--radius-sm); border: 1px solid var(--semantic-color-border); }
+.box { background: var(--semantic-color-accent-subtle); padding: var(--space-2); border-radius: var(--brand-border-radius); border: 1px solid var(--semantic-color-border); }
 .box.s-1 { padding: var(--space-1); }
 .box.s-3 { padding: var(--space-3); }
 .box.s-4 { padding: var(--space-4); }
 .box.s-5 { padding: var(--space-5); }
 
 /* Form Controls */
-.form-controls {
+.form-controls {q
   display: flex;
   flex-direction: column;
   gap: var(--space-6);

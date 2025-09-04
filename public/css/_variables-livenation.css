@@ -126,4 +126,5 @@
   --brand-color-brand-primary: #ff1e1e;
   --brand-overrides-bg: #ffffff;
   --brand-overrides-fg: #000000;
+  --brand-border-radius: 10px;
 }
