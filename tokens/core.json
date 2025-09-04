@@ -71,6 +71,14 @@
         "$type": "radius",
         "$value": "6px"
       },
+      "none": {
+        "$type": "radius",
+        "$value": "0px"
+      },
+      "xsm": {
+        "$type": "radius",
+        "$value": "4px"
+      },
       "md": {
         "$type": "radius",
         "$value": "10px"

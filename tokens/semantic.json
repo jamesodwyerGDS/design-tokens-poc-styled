@@ -280,6 +280,14 @@
   "radius": {
     "sm": {
       "$type": "radius",
+      "$value": "{core.radius.xsm}"
+    },
+    "none": {
+      "$type": "radius",
+      "$value": "{core.radius.none}"
+    },
+    "xsm": {
+      "$type": "radius",
       "$value": "{core.radius.sm}"
     },
     "md": {
