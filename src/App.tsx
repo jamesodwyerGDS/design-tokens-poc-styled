@@ -9,7 +9,6 @@ import { Checkbox } from './atoms/Checkbox'
 import { Radio } from './atoms/Radio'
 import { Toggle } from './atoms/Toggle'
 import { Select } from './atoms/Select'
-import { ThemeIconSet } from './atoms/ThemeIconSet'
 
 type Theme = 'ticketmaster' | 'livenation'
 
@@ -43,8 +42,8 @@ export default function App() {
             value={theme}
             onChange={(e) => setTheme(e.target.value as Theme)}
           >
-            <option value="ticketmaster">Ticketmaster <ThemeIconSet theme="ticketmaster" /></option>
-            <option value="livenation">Live Nation <ThemeIconSet theme="livenation" /></option>
+            <option value="ticketmaster">Ticketmaster</option>
+            <option value="livenation">Live Nation</option>
           </Select>
         </div>
       </header>
