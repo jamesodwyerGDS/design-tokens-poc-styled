@@ -70,17 +70,6 @@ export default function App() {
             <div className="surface elevation-3">Elevation 3</div>
             <div className="surface elevation-4">Elevation 4</div>
           </Card>
-
-          <Card>
-            <TitleText>Spacing scale</TitleText>
-            <div className="spacer-demo">
-              <div className="box s-1">xs</div>
-              <div className="box s-2">sm</div>
-              <div className="box s-3">md</div>
-              <div className="box s-4">lg</div>
-              <div className="box s-5">xl</div>
-            </div>
-          </Card>
         </div>
 
         <div className="controls-section">
@@ -115,6 +104,17 @@ export default function App() {
                 <Toggle />
                 <span>Toggle switch</span>
               </label>
+            </div>
+          </Card>
+
+          <Card>
+            <TitleText>Spacing scale</TitleText>
+            <div className="spacer-demo">
+              <div className="box s-1">xs</div>
+              <div className="box s-2">sm</div>
+              <div className="box s-3">md</div>
+              <div className="box s-4">lg</div>
+              <div className="box s-5">xl</div>
             </div>
           </Card>
         </div>
