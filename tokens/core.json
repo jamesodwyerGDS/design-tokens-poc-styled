@@ -289,6 +289,24 @@
           "$value": "100%"
         }
       }
+    },
+    "text-case": {
+      "uppercase": {
+        "$type": "textCase",
+        "$value": "uppercase"
+      },
+      " lowercase": {
+        "$type": "textCase",
+        "$value": "lowercase"
+      },
+      "capitalize": {
+        "$type": "textCase",
+        "$value": "capitalize"
+      },
+      " none": {
+        "$type": "textCase",
+        "$value": "none"
+      }
     }
   },
   "xsmall": {
