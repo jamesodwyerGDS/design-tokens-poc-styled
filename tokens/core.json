@@ -287,11 +287,11 @@
   },
   "xsmall": {
     "$type": "letterSpacing",
-    "$value": "-3"
+    "$value": "-3%"
   },
   "small": {
     "$type": "letterSpacing",
-    "$value": "-1.5"
+    "$value": "-1.5%"
   },
   "none": {
     "$type": "letterSpacing",
