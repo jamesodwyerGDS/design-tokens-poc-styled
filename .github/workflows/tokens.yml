@@ -1,0 +1,31 @@
+name: Token Studio Sync
+
+on:
+  pull_request:
+    paths:
+      - 'tokens/**'
+      - '.github/workflows/tokens.yml'
+
+jobs:
+  build_tokens:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Build tokens
+        run: npm run build-tokens
+        
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore: Update design tokens from Figma"
+          branch: ${{ github.head_ref }}
+          file_pattern: 'build/css/*.css'

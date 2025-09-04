@@ -1,0 +1,26 @@
+/* Base theme (Ticketmaster) */
+@import url('/css/_variables-ticketmaster.css');
+
+/* Live Nation Theme */
+.theme-livenation {
+  --semantic-color-bg: var(--ln-semantic-color-bg);
+  --semantic-color-fg: var(--ln-semantic-color-fg);
+  --semantic-color-fg-muted: var(--ln-semantic-color-fg-muted);
+  --semantic-color-surface: var(--ln-semantic-color-surface);
+  --semantic-color-border: var(--ln-semantic-color-border);
+  --semantic-color-accent: var(--ln-semantic-color-accent);
+  --semantic-color-accent-subtle: var(--ln-semantic-color-accent-subtle);
+  --semantic-color-btn-bg: var(--ln-semantic-color-btn-bg);
+  --semantic-color-btn-fg: var(--ln-semantic-color-btn-fg);
+  --semantic-color-btn-secondary-bg: var(--ln-semantic-color-btn-secondary-bg);
+  --semantic-color-btn-secondary-fg: var(--ln-semantic-color-btn-secondary-fg);
+  --semantic-color-form-control-bg: var(--ln-semantic-color-form-control-bg);
+  --semantic-color-form-control-fg: var(--ln-semantic-color-form-control-fg);
+  --semantic-color-form-control-border: var(--ln-semantic-color-form-control-border);
+  --semantic-color-form-control-checked: var(--ln-semantic-color-form-control-checked);
+}
+
+/* Add transition to the root element */
+:root {
+  transition: all 0.2s ease;
+}
