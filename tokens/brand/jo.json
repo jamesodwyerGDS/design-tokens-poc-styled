@@ -19,7 +19,7 @@
       },
       "fg": {
         "$type": "color",
-        "$value": "#6b4200"
+        "$value": "{core.color.black}"
       }
     },
     "border-radius": {
