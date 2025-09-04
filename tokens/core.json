@@ -91,7 +91,7 @@
       },
       "4": {
         "$type": "shadow",
-        "$value": "0 4px 8px rgba(0,0,0,0.02)"
+        "$value": "0 6px 10px rgba(0,0,0,0.02)"
       }
     },
     "typography": {
