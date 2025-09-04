@@ -81,9 +81,9 @@
   --small: -0.015em;
   --none: 0;
   --brand-name: Ticketmaster;
-  --brand-color-brand-primary: #6b4200;
+  --brand-color-brand-primary: #000000;
   --brand-overrides-bg: #ffffff;
-  --brand-overrides-fg: #6b4200;
+  --brand-overrides-fg: #000000;
   --brand-border-radius: 10px;
   --brand-typography-font-family-01: Noto Serif;
   --semantic-color-bg: #ffffff;
@@ -93,14 +93,14 @@
   --semantic-color-border: #cbd5e1;
   --semantic-color-accent: #940077;
   --semantic-color-accent-subtle: #eef2f6;
-  --semantic-color-btn-bg: #6b4200;
+  --semantic-color-btn-bg: #000000;
   --semantic-color-btn-fg: #ffffff;
   --semantic-color-btn-secondary-bg: #f8fafc;
   --semantic-color-btn-secondary-fg: #000000;
   --semantic-color-form-control-bg: #ffffff;
   --semantic-color-form-control-fg: #000000;
   --semantic-color-form-control-border: #cbd5e1;
-  --semantic-color-form-control-checked: #6b4200;
+  --semantic-color-form-control-checked: #000000;
   --semantic-typography-display-large: 900 96px/1 'Noto Serif';
   --semantic-typography-display-medium: 900 72px/1 'Noto Serif';
   --semantic-typography-display-small: 900 64px/1 'Noto Serif';

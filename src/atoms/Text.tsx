@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const DisplayText = styled.p`
-  font-family: 'Averta', sans-serif;
+font-family: var(--brand-typography-font-family-01);
   font-size: var(--core-typography-font-size-900);
   font-weight: var(--core-typography-font-weight-black);
   line-height: 1;
@@ -11,7 +11,7 @@ export const DisplayText = styled.p`
 `;
 
 export const TitleText = styled.h2`
-  font-family: 'Averta', sans-serif;
+font-family: var(--brand-typography-font-family-01);
   font-size: var(--core-typography-font-size-300);
   font-weight: var(--core-typography-font-weight-black);
   line-height: 1;
@@ -19,7 +19,7 @@ export const TitleText = styled.h2`
 `;
 
 export const BodyText = styled.p`
-  font-family: 'Averta', sans-serif;
+font-family: var(--brand-typography-font-family-01);
   font-size: var(--core-typography-font-size-100);
   font-weight: var(--core-typography-font-weight-regular);
   line-height: var(--core-typography-line-height-200);
@@ -27,7 +27,7 @@ export const BodyText = styled.p`
 `;
 
 export const LabelText = styled.span`
-  font-family: 'Averta', sans-serif;
+font-family: var(--brand-typography-font-family-01);
   font-size: var(--core-typography-font-size-100);
   font-weight: var(--core-typography-font-weight-semibold);
   line-height: 1;
