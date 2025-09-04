@@ -30,7 +30,7 @@
       "font-family": {
         "01": {
           "$type": "fontFamilies",
-          "$value": "Noto Sans"
+          "$value": "Nunito"
         }
       }
     }
