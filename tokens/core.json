@@ -79,15 +79,15 @@
     "elevation": {
       "1": {
         "$type": "shadow",
-        "$value": "0 1px 2px rgba(0,0,0,0.06)"
-      },
-      "2": {
-        "$type": "shadow",
         "$value": "0 2px 6px rgba(0,0,0,0.10)"
       },
       "3": {
         "$type": "shadow",
         "$value": "0 6px 12px rgba(0,0,0,0.14)"
+      },
+      "5": {
+        "$type": "shadow",
+        "$value": "0 1px 2px rgba(0,0,0,0.06)"
       }
     },
     "typography": {
@@ -282,25 +282,19 @@
           "$type": "lineHeights",
           "$value": "100%"
         }
-      },
-      "letter-spacing": {
-        "large": {
-          "$type": "letterSpacing",
-          "$value": "1px"
-        },
-        "xsmal": {
-          "$type": "letterSpacing",
-          "$value": "-3px"
-        },
-        "small": {
-          "$type": "letterSpacing",
-          "$value": "-1.20px"
-        },
-        "medium": {
-          "$type": "letterSpacing",
-          "$value": "-0.5px"
-        }
       }
     }
+  },
+  "xsmall": {
+    "$type": "letterSpacing",
+    "$value": "-3px"
+  },
+  "small": {
+    "$type": "letterSpacing",
+    "$value": "-1.5px"
+  },
+  "none": {
+    "$type": "letterSpacing",
+    "$value": "0px"
   }
 }
