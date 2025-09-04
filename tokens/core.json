@@ -284,21 +284,21 @@
         }
       },
       "letter-spacing": {
-        "100": {
+        "large": {
           "$type": "letterSpacing",
           "$value": "1px"
         },
-        "neg-300": {
+        "xsmal": {
           "$type": "letterSpacing",
           "$value": "-3px"
         },
-        "neg-200": {
+        "small": {
           "$type": "letterSpacing",
           "$value": "-1.20px"
         },
-        "neg-100": {
+        "medium": {
           "$type": "letterSpacing",
-          "$value": "-0.50px"
+          "$value": "-0.5px"
         }
       }
     }
