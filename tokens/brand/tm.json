@@ -25,6 +25,14 @@
     "border-radius": {
       "$type": "borderRadius",
       "$value": "{core.radius.xsm}"
+    },
+    "typography": {
+      "font-family": {
+        "01": {
+          "$type": "fontFamilies",
+          "$value": "Averta"
+        }
+      }
     }
   }
 }
