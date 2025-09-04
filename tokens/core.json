@@ -287,14 +287,14 @@
   },
   "xsmall": {
     "$type": "letterSpacing",
-    "$value": "-3px"
+    "$value": "-3"
   },
   "small": {
     "$type": "letterSpacing",
-    "$value": "-1.5px"
+    "$value": "-1.5"
   },
   "none": {
     "$type": "letterSpacing",
-    "$value": "0px"
+    "$value": "0"
   }
 }
