@@ -94,29 +94,29 @@
       "font-family": {
         "01": {
           "$type": "fontFamilies",
-          "$value": "Averta, sans-serif"
+          "$value": "Averta"
         }
       },
       "font-weight": {
         "light": {
           "$type": "fontWeights",
-          "$value": "200"
+          "$value": "Lights"
         },
         "regular": {
           "$type": "fontWeights",
-          "$value": "400"
+          "$value": "Regular"
         },
         "semibold": {
           "$type": "fontWeights",
-          "$value": "600"
+          "$value": "Semibold"
         },
         "bold": {
           "$type": "fontWeights",
-          "$value": "700"
+          "$value": "Bold"
         },
         "black": {
           "$type": "fontWeights",
-          "$value": "900"
+          "$value": "Black"
         }
       },
       "font-size": {
@@ -286,27 +286,27 @@
       "letter-spacing": {
         "100": {
           "$type": "letterSpacing",
-          "$value": "1%"
+          "$value": "1"
         },
         "300": {
           "$type": "letterSpacing",
-          "$value": "3%"
+          "$value": "3"
         },
         "800": {
           "$type": "letterSpacing",
-          "$value": "15%"
+          "$value": "15"
         },
         "neg-300": {
           "$type": "letterSpacing",
-          "$value": "-3%"
+          "$value": "-3"
         },
         "neg-200": {
           "$type": "letterSpacing",
-          "$value": "-1.20%"
+          "$value": "-1.20"
         },
         "neg-100": {
           "$type": "letterSpacing",
-          "$value": "-0.50%"
+          "$value": "-0.50"
         }
       }
     }
