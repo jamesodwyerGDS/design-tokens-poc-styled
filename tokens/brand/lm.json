@@ -24,13 +24,13 @@
     },
     "border-radius": {
       "$type": "borderRadius",
-      "$value": "{core.radius.md}"
+      "$value": "{core.radius.xl}"
     },
     "typography": {
       "font-family": {
         "01": {
           "$type": "fontFamilies",
-          "$value": "Averta"
+          "$value": "Nunito"
         }
       }
     }
