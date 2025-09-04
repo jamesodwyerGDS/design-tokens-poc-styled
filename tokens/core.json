@@ -282,25 +282,19 @@
           "$type": "lineHeights",
           "$value": "100%"
         }
-      },
-      "letter-spacing": {
-        "large": {
-          "$type": "letterSpacing",
-          "$value": "1px"
-        },
-        "xsmal": {
-          "$type": "letterSpacing",
-          "$value": "-3px"
-        },
-        "small": {
-          "$type": "letterSpacing",
-          "$value": "-1.20px"
-        },
-        "medium": {
-          "$type": "letterSpacing",
-          "$value": "-0.5px"
-        }
       }
     }
+  },
+  "xsmall": {
+    "$type": "letterSpacing",
+    "$value": "-3px"
+  },
+  "small": {
+    "$type": "letterSpacing",
+    "$value": "-1.5px"
+  },
+  "none": {
+    "$type": "letterSpacing",
+    "$value": "0px"
   }
 }
