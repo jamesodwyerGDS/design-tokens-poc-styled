@@ -294,11 +294,11 @@
     },
     "2": {
       "$type": "shadow",
-      "$value": "{core.elevation.2}"
+      "$value": "{core.elevation.3}"
     },
     "3": {
       "$type": "shadow",
-      "$value": "{core.elevation.3}"
+      "$value": "{core.elevation.5}"
     }
   }
 }
