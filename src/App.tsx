@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './tokens/variables.ticketmaster.css'
-import './tokens/index.css'
+import './fonts.css'
 import './base.css'
 
 import { Button } from './atoms/Button'
@@ -13,10 +12,19 @@ export default function App() {
   const [theme, setTheme] = useState<Theme>('ticketmaster')
 
   useEffect(() => {
-    document.documentElement.setAttribute('data-theme', theme)
-    if (theme === 'livenation') {
-      import('./tokens/variables.livenation.css')
+    // Remove any previously injected theme CSS
+    const prevLink = document.getElementById('theme-css')
+    if (prevLink) {
+      prevLink.parentNode?.removeChild(prevLink)
     }
+    // Dynamically inject the correct theme CSS
+    const link = document.createElement('link')
+    link.rel = 'stylesheet'
+    link.id = 'theme-css'
+    link.href = theme === 'livenation'
+      ? '/css/_variables-livenation.css'
+      : '/css/_variables-ticketmaster.css'
+    document.head.appendChild(link)
   }, [theme])
 
   return (
@@ -25,7 +33,18 @@ export default function App() {
         <h1>Token Studio → styled-components demo</h1>
         <div className="theme-switch">
           <label htmlFor="theme">Theme:</label>
-          <select id="theme" value={theme} onChange={(e) => setTheme(e.target.value as Theme)}>
+          <select 
+            id="theme" 
+            value={theme} 
+            onChange={(e) => setTheme(e.target.value as Theme)}
+            style={{
+              backgroundColor: theme === 'livenation' ? 'var(--brand-color-brand-primary)' : 'var(--brand-color-brand-primary)',
+              color: 'white',
+              padding: '4px 8px',
+              borderRadius: '4px',
+              border: 'none'
+            }}
+          >
             <option value="ticketmaster">Ticketmaster</option>
             <option value="livenation">Live Nation</option>
           </select>
@@ -33,38 +52,43 @@ export default function App() {
       </header>
 
       <section className="grid">
-        <Card>
-          <TitleText>Buttons</TitleText>
-          <div className="row">
-            <Button>Primary</Button>
-            <Button className="secondary">Secondary</Button>
-          </div>
-        </Card>
+        <div className="typography-section">
+          <Card>
+            <TitleText>Typography</TitleText>
+            <DisplayText>Display: Big headline to demo scale</DisplayText>
+            <BodyText>Body: This paragraph uses semantic tokens for font-size, weight and line-height.</BodyText>
+            <LabelText>Label: Helper text or microcopy.</LabelText>
+          </Card>
+        </div>
 
-        <Card>
-          <TitleText>Typography</TitleText>
-          <DisplayText>Display: Big headline to demo scale</DisplayText>
-          <BodyText>Body: This paragraph uses semantic tokens for font-size, weight and line-height.</BodyText>
-          <LabelText>Label: Helper text or microcopy.</LabelText>
-        </Card>
+        <div className="controls-section">
+          <Card>
+            <TitleText>Buttons</TitleText>
+            <div className="row">
+              <Button>Primary</Button>
+              <Button className="secondary">Secondary</Button>
+            </div>
+          </Card>
 
-        <Card>
-          <TitleText>Surfaces & Elevation</TitleText>
-          <div className="surface elevation-1">Elevation 1</div>
-          <div className="surface elevation-2">Elevation 2</div>
-          <div className="surface elevation-3">Elevation 3</div>
-        </Card>
+          <Card>
+            <TitleText>Surfaces & Elevation</TitleText>
+            <div className="surface elevation-1">Elevation 1</div>
+            <div className="surface elevation-2">Elevation 2</div>
+            <div className="surface elevation-3">Elevation 3</div>
+            <div className="surface elevation-4">Elevation 4</div>
+          </Card>
 
-        <Card>
-          <TitleText>Spacing scale</TitleText>
-          <div className="spacer-demo">
-            <div className="box s-1">xs</div>
-            <div className="box s-2">sm</div>
-            <div className="box s-3">md</div>
-            <div className="box s-4">lg</div>
-            <div className="box s-5">xl</div>
-          </div>
-        </Card>
+          <Card>
+            <TitleText>Spacing scale</TitleText>
+            <div className="spacer-demo">
+              <div className="box s-1">xs</div>
+              <div className="box s-2">sm</div>
+              <div className="box s-3">md</div>
+              <div className="box s-4">lg</div>
+              <div className="box s-5">xl</div>
+            </div>
+          </Card>
+        </div>
       </section>
     </div>
   )

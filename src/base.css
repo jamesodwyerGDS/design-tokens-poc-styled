@@ -7,9 +7,9 @@
 
 body {
   margin: 0;
-  font-family: var(--font-family-base, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif);
-  background: var(--color-bg);
-  color: var(--color-fg);
+  font-family: var(--core-typography-font-family-01, sans-serif);
+  background: var(--semantic-color-bg);
+  color: var(--semantic-color-fg);
 }
 
 .app {
@@ -23,48 +23,57 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: var(--space-4) 0;
-  border-bottom: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--semantic-color-border);
+}
+
+.row {
+  display: flex;
+  gap: var(--space-3);
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: 2fr 1fr;
+  gap: var(--space-4);
+}
+
+.typography-section {
+  grid-column: 1;
+}
+
+.controls-section {
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
   gap: var(--space-4);
 }
 
 .card {
-  background: var(--color-surface);
-  color: var(--color-fg);
-  border: 1px solid var(--color-border);
+  background: var(--semantic-color-surface);
+  color: var(--semantic-color-fg);
+  border: 1px solid var(--semantic-color-border);
   border-radius: var(--radius-md);
   padding: var(--space-4);
   box-shadow: var(--elevation-1);
 }
 
 .title {
-  font-size: var(--font-title-size);
-  font-weight: var(--font-title-weight);
-  line-height: var(--font-title-line);
+  font: var(--semantic-typography-title-medium);
   margin: 0 0 var(--space-3);
 }
 
 .display {
-  font-size: var(--font-display-size);
-  font-weight: var(--font-display-weight);
-  line-height: var(--font-display-line);
+  font: var(--semantic-typography-display-large);
   margin: 0 0 var(--space-2);
 }
 
 .body {
-  font-size: var(--font-body-size);
-  line-height: var(--font-body-line);
+  font: var(--semantic-typography-body-regular-medium);
 }
 
 .label {
-  font-size: var(--font-label-size);
-  letter-spacing: var(--font-label-tracking);
-  text-transform: var(--font-label-transform);
-  color: var(--color-fg-muted);
+  font-size: var(--semantic-typography-label-small);
+  color: var(--semantic-color-fg-muted);
 }
 
 /* Buttons */
@@ -72,22 +81,22 @@ body {
   padding: var(--space-2) var(--space-3);
   border-radius: var(--radius-md);
   border: 1px solid transparent;
-  background: var(--color-btn-bg);
-  color: var(--color-btn-fg);
+  background: var(--semantic-color-btn-bg);
+  color: var(--semantic-color-btn-fg);
   box-shadow: var(--elevation-1);
   cursor: pointer;
   margin-right: var(--space-2);
 }
 .btn.secondary {
-  background: var(--color-btn-secondary-bg);
-  color: var(--color-btn-secondary-fg);
-  border-color: var(--color-border);
+  background: var(--semantic-color-btn-secondary-bg);
+  color: var(--semantic-color-btn-secondary-fg);
+  border-color: var(--semantic-color-border);
 }
 
 /* Surfaces & Elevation */
 .surface {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
+  background: var(--semantic-color-surface);
+  border: 1px solid var(--semantic-color-border);
   border-radius: var(--radius-md);
   padding: var(--space-3);
   margin-bottom: var(--space-2);
@@ -95,12 +104,12 @@ body {
 .elevation-1 { box-shadow: var(--elevation-1); }
 .elevation-2 { box-shadow: var(--elevation-2); }
 .elevation-3 { box-shadow: var(--elevation-3); }
+.elevation-4 { box-shadow: var(--elevation-4); }
 
 /* Spacing demo */
 .spacer-demo { display: flex; align-items: center; gap: var(--space-2); }
-.box { background: var(--color-accent-subtle); padding: var(--space-2); border-radius: var(--radius-sm); border: 1px solid var(--color-border); }
-.box.s-1 { margin: var(--space-1); }
-.box.s-2 { margin: var(--space-2); }
-.box.s-3 { margin: var(--space-3); }
-.box.s-4 { margin: var(--space-4); }
-.box.s-5 { margin: var(--space-5); }
+.box { background: var(--semantic-color-accent-subtle); padding: var(--space-2); border-radius: var(--radius-sm); border: 1px solid var(--semantic-color-border); }
+.box.s-1 { padding: var(--space-1); }
+.box.s-3 { padding: var(--space-3); }
+.box.s-4 { padding: var(--space-4); }
+.box.s-5 { padding: var(--space-5); }

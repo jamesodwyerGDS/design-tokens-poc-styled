@@ -1,24 +1,23 @@
 import styled from "styled-components";
 
 export const Button = styled.button`
-  padding: var(--space-2) var(--space-3);
-  border-radius: var(--radius-md);
-  font-size: var(--font-body-size);
-  font-family: var(--font-family-base);
+  padding: var(--core-space-2) var(--core-space-3);
+  border-radius: var(--core-radius-md);
+  font: var(--semantic-typography-label-medium);
 
-  background: var(--color-btn-bg);
-  color: var(--color-btn-fg);
+  background: var(--semantic-color-btn-bg);
+  color: var(--semantic-color-btn-fg);
   border: 1px solid transparent;
-  box-shadow: var(--elevation-1);
+  box-shadow: var(--core-elevation-1);
   cursor: pointer;
 
   &:hover {
-    background: var(--color-accent);
+    opacity: 0.9;
   }
 
   &.secondary {
-    background: var(--color-btn-secondary-bg);
-    color: var(--color-btn-secondary-fg);
-    border-color: var(--color-border);
+    background: var(--semantic-color-btn-secondary-bg);
+    color: var(--semantic-color-btn-secondary-fg);
+    border-color: var(--semantic-color-border);
   }
 `;
