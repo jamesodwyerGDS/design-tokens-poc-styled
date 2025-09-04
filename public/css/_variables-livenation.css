@@ -71,6 +71,10 @@
   --core-typography-line-height-700: 54px;
   --core-typography-line-height-800: 64px;
   --core-typography-line-height-full: 100%;
+  --core-text-case-uppercase: uppercase;
+  --core-text-case-lowercase: lowercase;
+  --core-text-case-capitalize: capitalize;
+  --core-text-case-none: none;
   --xsmall: -0.03em;
   --small: -0.015em;
   --none: 0;
