@@ -9,6 +9,7 @@ import { Checkbox } from './atoms/Checkbox'
 import { Radio } from './atoms/Radio'
 import { Toggle } from './atoms/Toggle'
 import { ThemeToggle } from './atoms/ThemeToggle'
+import { UserIcon, SearchIcon, CalendarIcon, SettingsIcon, HeartIcon, TicketIcon } from './atoms/Icons'
 
 type Theme = 'ticketmaster' | 'livenation'
 
@@ -104,6 +105,36 @@ export default function App() {
               <div className="box s-3">md</div>
               <div className="box s-4">lg</div>
               <div className="box s-5">xl</div>
+            </div>
+          </Card>
+
+          <Card>
+            <TitleText>Icons</TitleText>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 'var(--core-space-4)' }}>
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 'var(--core-space-2)' }}>
+                <UserIcon size={24} />
+                <LabelText>User</LabelText>
+              </div>
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 'var(--core-space-2)' }}>
+                <SearchIcon size={24} />
+                <LabelText>Search</LabelText>
+              </div>
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 'var(--core-space-2)' }}>
+                <CalendarIcon size={24} />
+                <LabelText>Calendar</LabelText>
+              </div>
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 'var(--core-space-2)' }}>
+                <SettingsIcon size={24} />
+                <LabelText>Settings</LabelText>
+              </div>
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 'var(--core-space-2)' }}>
+                <HeartIcon size={24} />
+                <LabelText>Heart</LabelText>
+              </div>
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 'var(--core-space-2)' }}>
+                <TicketIcon size={24} />
+                <LabelText>Ticket</LabelText>
+              </div>
             </div>
           </Card>
         </div>
