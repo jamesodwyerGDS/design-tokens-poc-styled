@@ -286,27 +286,19 @@
       "letter-spacing": {
         "100": {
           "$type": "letterSpacing",
-          "$value": "1"
-        },
-        "300": {
-          "$type": "letterSpacing",
-          "$value": "3"
-        },
-        "800": {
-          "$type": "letterSpacing",
-          "$value": "15"
+          "$value": "1px"
         },
         "neg-300": {
           "$type": "letterSpacing",
-          "$value": "-3"
+          "$value": "-3px"
         },
         "neg-200": {
           "$type": "letterSpacing",
-          "$value": "-1.20"
+          "$value": "-1.20px"
         },
         "neg-100": {
           "$type": "letterSpacing",
-          "$value": "-0.50"
+          "$value": "-0.50px"
         }
       }
     }

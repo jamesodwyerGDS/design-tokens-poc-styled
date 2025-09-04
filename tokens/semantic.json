@@ -238,8 +238,7 @@
           "fontFamily": "{core.typography.font-family.01}",
           "fontWeight": "{core.typography.font-weight.regular}",
           "fontSize": "{core.typography.font-size.50}",
-          "lineHeight": "{core.typography.line-height.150}",
-          "textCase": "uppercase"
+          "lineHeight": "{core.typography.line-height.150}"
         }
       }
     }
