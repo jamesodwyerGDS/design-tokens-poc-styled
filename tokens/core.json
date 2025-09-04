@@ -82,6 +82,10 @@
       "md": {
         "$type": "borderRadius",
         "$value": "10px"
+      },
+      "xl": {
+        "$type": "borderRadius",
+        "$value": "50px"
       }
     },
     "elevation": {
@@ -103,32 +107,26 @@
       }
     },
     "typography": {
-"font-family": {
-  "01": {
-    "$type": "fontFamilies",
-    "$value": "'Averta', sans-serif"
-  }
-},
-"font-weight": {
+      "font-weight": {
         "light": {
           "$type": "fontWeights",
-          "$value": "300"
+          "$value": "Light"
         },
         "regular": {
           "$type": "fontWeights",
-          "$value": "400"
+          "$value": "Regular"
         },
         "semibold": {
           "$type": "fontWeights",
-          "$value": "600"
+          "$value": "Semibold"
         },
         "bold": {
           "$type": "fontWeights",
-          "$value": "700"
+          "$value": "Bold"
         },
         "black": {
           "$type": "fontWeights",
-          "$value": "900"
+          "$value": "Black"
         }
       },
       "font-size": {
