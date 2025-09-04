@@ -20,5 +20,15 @@
       "brand/lm": "enabled"
     },
     "$figmaVariableReferences": {}
+  },
+  {
+    "id": "06d0c43dd08e31d627bb5501f5a84e96d773f7cb",
+    "name": "jo",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "core": "enabled",
+      "brand/jo": "enabled",
+      "semantic": "enabled"
+    }
   }
 ]
