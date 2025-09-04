@@ -83,15 +83,15 @@
       },
       "2": {
         "$type": "shadow",
-        "$value": "0 2px 4px rgba(0,0,0,0.06)"
+        "$value": "0 2px 4px rgba(0,0,0,0.2)"
       },
       "3": {
         "$type": "shadow",
-        "$value": "0 4px 6px rgba(0,0,0,0.4)"
+        "$value": "0 4px 6px rgba(0,0,0,0.3)"
       },
       "4": {
         "$type": "shadow",
-        "$value": "0 6px 10px rgba(0,0,0,0.02)"
+        "$value": "0 6px 10px rgba(0,0,0,0.04)"
       }
     },
     "typography": {
