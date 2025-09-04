@@ -298,7 +298,7 @@
     },
     "3": {
       "$type": "shadow",
-      "$value": "{core.elevation.5}"
+      "$value": "{core.elevation.2}"
     }
   }
 }
