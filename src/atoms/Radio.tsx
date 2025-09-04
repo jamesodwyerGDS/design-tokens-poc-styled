@@ -19,8 +19,8 @@ export const Radio = styled.input.attrs({ type: "radio" })`
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%);
-      width: calc(var(--core-space-4) - 12px);
-      height: calc(var(--core-space-4) - 12px);
+      width: calc(var(--core-space-4) - 2px);
+      height: calc(var(--core-space-4) - 2px);
       background: var(--semantic-color-form-control-checked);
       border-radius: 50%;
     }
