@@ -87,7 +87,7 @@ const IconWrapper = styled.div`
   gap: var(--core-space-2);
 `
 
-type Theme = 'ticketmaster' | 'livenation'
+type Theme = 'ticketmaster' | 'livenation' | 'jo'
 
 export default function App() {
   const [theme, setTheme] = useState<Theme>('ticketmaster')
@@ -102,9 +102,7 @@ export default function App() {
     const link = document.createElement('link')
     link.rel = 'stylesheet'
     link.id = 'theme-css'
-    link.href = theme === 'livenation'
-      ? '/css/_variables-livenation.css'
-      : '/css/_variables-ticketmaster.css'
+    link.href = `/css/_variables-${theme}.css`
     document.head.appendChild(link)
   }, [theme])
 

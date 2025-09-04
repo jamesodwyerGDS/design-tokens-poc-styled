@@ -33,7 +33,7 @@ const ToggleButton = styled.button<{ active: boolean }>`
   }
 `
 
-type Theme = 'ticketmaster' | 'livenation'
+type Theme = 'ticketmaster' | 'livenation' | 'jo'
 
 interface ThemeToggleProps {
   currentTheme: Theme;
@@ -56,6 +56,13 @@ export const ThemeToggle: React.FC<ThemeToggleProps> = ({ currentTheme, onThemeC
         type="button"
       >
         Live Nation
+      </ToggleButton>
+      <ToggleButton
+        active={currentTheme === 'jo'}
+        onClick={() => onThemeChange('jo')}
+        type="button"
+      >
+        Jo
       </ToggleButton>
     </ToggleWrapper>
   )
