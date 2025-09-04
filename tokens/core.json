@@ -27,17 +27,17 @@
           "$value": "#334155"
         }
       },
-      "blue": {
-        "500": {
-          "$type": "color",
-          "$value": "#940077"
-        }
+      "brand-2": {
+        "$type": "color",
+        "$value": "#940077"
       },
-      "red": {
-        "500": {
-          "$type": "color",
-          "$value": "#ff1e1e"
-        }
+      "brand-3": {
+        "$type": "color",
+        "$value": "#ff1e1e"
+      },
+      "brand-1": {
+        "$type": "color",
+        "$value": "#022ea2"
       }
     },
     "space": {

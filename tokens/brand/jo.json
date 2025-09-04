@@ -8,7 +8,7 @@
       "brand": {
         "primary": {
           "$type": "color",
-          "$value": "{core.color.brand-3}"
+          "$value": "{brand.overrides.fg}"
         }
       }
     },
@@ -19,7 +19,7 @@
       },
       "fg": {
         "$type": "color",
-        "$value": "{core.color.black}"
+        "$value": "#6b4200"
       }
     },
     "border-radius": {
