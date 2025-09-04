@@ -21,6 +21,10 @@
         "$type": "color",
         "$value": "{core.color.black}"
       }
+    },
+    "border-radius": {
+      "$type": "borderRadius",
+      "$value": "{core.radius.xsm}"
     }
   }
 }
