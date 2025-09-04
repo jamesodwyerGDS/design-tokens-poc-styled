@@ -1,0 +1,26 @@
+{
+  "brand": {
+    "name": {
+      "$type": "other",
+      "$value": "Livenation"
+    },
+    "color": {
+      "brand": {
+        "primary": {
+          "$type": "color",
+          "$value": "{core.color.blue.500}"
+        }
+      }
+    },
+    "overrides": {
+      "bg": {
+        "$type": "color",
+        "$value": "{core.color.white}"
+      },
+      "fg": {
+        "$type": "color",
+        "$value": "{core.color.black}"
+      }
+    }
+  }
+}
