@@ -100,7 +100,7 @@
       "font-weight": {
         "light": {
           "$type": "fontWeights",
-          "$value": "Lights"
+          "$value": "Light"
         },
         "regular": {
           "$type": "fontWeights",
