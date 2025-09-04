@@ -68,19 +68,19 @@
     },
     "radius": {
       "sm": {
-        "$type": "radius",
+        "$type": "borderRadius",
         "$value": "6px"
       },
       "none": {
-        "$type": "radius",
+        "$type": "borderRadius",
         "$value": "0px"
       },
       "xsm": {
-        "$type": "radius",
+        "$type": "borderRadius",
         "$value": "4px"
       },
       "md": {
-        "$type": "radius",
+        "$type": "borderRadius",
         "$value": "10px"
       }
     },
@@ -103,12 +103,6 @@
       }
     },
     "typography": {
-      "font-family": {
-        "01": {
-          "$type": "fontFamilies",
-          "$value": "Averta"
-        }
-      },
       "font-weight": {
         "light": {
           "$type": "fontWeights",
