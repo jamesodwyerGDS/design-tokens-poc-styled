@@ -11,7 +11,7 @@ export const Radio = styled.input.attrs({ type: "radio" })`
   position: relative;
 
   &:checked {
-    border: 2px solid var(--semantic-color-form-control-checked);
+    border: var(--core-space-1) solid var(--semantic-color-form-control-checked);
 
     &::after {
       content: "";
@@ -31,7 +31,7 @@ export const Radio = styled.input.attrs({ type: "radio" })`
   }
 
   &:focus {
-    outline: 2px solid var(--semantic-color-form-control-checked);
-    outline-offset: 2px;
+    outline: var(--core-space-1) solid var(--semantic-color-form-control-checked);
+    outline-offset: var(--core-space-1);
   }
 `;

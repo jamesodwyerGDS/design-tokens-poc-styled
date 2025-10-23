@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const ToggleWrapper = styled.div`
   display: flex;
   align-items: center;
-  height: 48px;
+  height: calc(var(--core-space-6) * 2);
   border-radius: var(--radius-sm);
   padding: var(--core-space-1);
   background: var(--core-color-grey-100);
@@ -11,7 +11,7 @@ const ToggleWrapper = styled.div`
 `
 
 const ToggleButton = styled.button<{ active: boolean }>`
-  height: 40px;
+  height: calc(var(--core-space-5) * 2);
   padding: 0 var(--core-space-4);
   background: ${props => props.active ? 'var(--core-color-black)' : 'transparent'};
   border: 1px solid var(--core-color-black);
@@ -28,8 +28,8 @@ const ToggleButton = styled.button<{ active: boolean }>`
   }
 
   &:focus {
-    outline: 2px solid var(--core-color-black);
-    outline-offset: 2px;
+    outline: var(--core-space-1) solid var(--core-color-black);
+    outline-offset: var(--core-space-1);
   }
 `
 

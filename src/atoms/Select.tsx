@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Select = styled.select`
-  padding: 4px;
+  padding: var(--core-space-1);
   font: var(--semantic-typography-label-medium);
-  min-width: 150px;
+  min-width: calc(var(--core-space-6) * 6.25);
 `;

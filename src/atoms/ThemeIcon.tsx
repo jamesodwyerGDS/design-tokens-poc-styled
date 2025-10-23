@@ -8,8 +8,8 @@ export const ThemeIcon = styled.span`
   vertical-align: middle;
 
   svg {
-    width: 12px;
-    height: 12px;
+    width: var(--core-space-3);
+    height: var(--core-space-3);
     fill: currentColor;
   }
 `;

@@ -20,10 +20,10 @@ export const Checkbox = styled.input.attrs({ type: "checkbox" })`
       left: 50%;
       top: 45%;
       transform: translate(-50%, -50%) rotate(45deg);
-      width: 4px;
-      height: 8px;
+      width: var(--core-space-1);
+      height: var(--core-space-2);
       border: solid var(--semantic-color-form-control-bg);
-      border-width: 0 2px 2px 0;
+      border-width: 0 var(--core-space-1) var(--core-space-1) 0;
     }
   }
 
@@ -32,7 +32,7 @@ export const Checkbox = styled.input.attrs({ type: "checkbox" })`
   }
 
   &:focus {
-    outline: 2px solid var(--semantic-color-form-control-checked);
-    outline-offset: 2px;
+    outline: var(--core-space-1) solid var(--semantic-color-form-control-checked);
+    outline-offset: var(--core-space-1);
   }
 `;
